@@ -33,11 +33,6 @@ Add your remote repository (replace with your actual repository URL):
   git remote add origin https://github.com/yourusername/yourrepository.git
 ```
 
-Add your remote repository (replace with your actual repository URL):
-
-```bash
-  git remote add origin https://github.com/yourusername/yourrepository.git
-```
 
 Push the new branch to the remote repository:
 
