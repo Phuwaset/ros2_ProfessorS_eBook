@@ -112,15 +112,33 @@ Add a new line after the ament_cmake buildtool dependency and paste the followin
 
 ## CMakeLists.txt
 Now open the CMakeLists.txt file. Below the existing dependency find_package(ament_cmake REQUIRED), add the lines:
+# refer package xml
 ```bash
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 ```
 After that, add the executable and name it talker so you can run your node using ros2 run:
+# refer add_executable. you create 
 ```bash
 add_executable(talker src/publisher_member_function.cpp)
 ament_target_dependencies(talker rclcpp std_msgs)
 ```
+# Example 
+```bash
+# ---------------------------------------------------------------------------------------------
+# After that, add the executable and name it [ talker ] so you can run your node using ros2 run:
+add_executable(talker src/publisher_member_function.cpp)
+ament_target_dependencies(talker rclcpp std_msgs)
+# ---------------------------------------------------------------------------------------------
+
+# ---------------------------------------------------------------------------------------------
+# After that, add the executable and name it [ listener ] so you can run your node using ros2 run:
+add_executable(listener src/subscriber_member_function.cpp)
+ament_target_dependencies(listener rclcpp std_msgs)
+# ---------------------------------------------------------------------------------------------
+
+```
+
 Finally, add the install(TARGETS...) section so ros2 run can find your executable:
 ```bash
  install(TARGETS
