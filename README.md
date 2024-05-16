@@ -31,7 +31,7 @@ Create a new branch (branch_name) and switch to it:
 Add your remote repository (replace with your actual repository URL):
 
 ```bash
-  git remote add origin https://github.com/yourusername/yourrepository.git](https://github.com/Phuwaset/ros2_ProfessorS_eBook.git
+  git remote add origin https://github.com/Phuwaset/ros2_ProfessorS_eBook.git
 ```
 
 
