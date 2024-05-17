@@ -1,0 +1,41 @@
+[0.572s] Invoking command in '/home/phuros/ros2_ws/src/py_pubsub': PYTHONPATH=/home/phuros/ros2_ws/build/py_pubsub/prefix_override:/home/phuros/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/phuros/ros2_ws/build/py_pubsub/build install --record /home/phuros/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[0.801s] running egg_info
+[0.801s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[0.801s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[0.802s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[0.802s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[0.802s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[0.802s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[0.802s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.804s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.804s] adding license file 'LICENSE'
+[0.804s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.805s] running build
+[0.805s] running build_py
+[0.805s] creating /home/phuros/ros2_ws/build/py_pubsub/build
+[0.805s] creating /home/phuros/ros2_ws/build/py_pubsub/build/lib
+[0.805s] creating /home/phuros/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.805s] copying py_pubsub/__init__.py -> /home/phuros/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.805s] copying py_pubsub/subscriber_member_function.py -> /home/phuros/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.805s] copying py_pubsub/publisher_member_function.py -> /home/phuros/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.806s] running install
+[0.806s] running install_lib
+[0.806s] creating /home/phuros/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.806s] copying /home/phuros/ros2_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/phuros/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.807s] copying /home/phuros/ros2_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/phuros/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.807s] copying /home/phuros/ros2_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/phuros/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.807s] byte-compiling /home/phuros/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc
+[0.808s] byte-compiling /home/phuros/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[0.808s] byte-compiling /home/phuros/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[0.808s] running install_data
+[0.809s] creating /home/phuros/ros2_ws/install/py_pubsub/share/ament_index
+[0.809s] creating /home/phuros/ros2_ws/install/py_pubsub/share/ament_index/resource_index
+[0.809s] creating /home/phuros/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[0.809s] copying resource/py_pubsub -> /home/phuros/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[0.809s] copying package.xml -> /home/phuros/ros2_ws/install/py_pubsub/share/py_pubsub
+[0.809s] running install_egg_info
+[0.811s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/phuros/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[0.812s] running install_scripts
+[0.832s] Installing talker script to /home/phuros/ros2_ws/install/py_pubsub/lib/py_pubsub
+[0.833s] writing list of installed files to '/home/phuros/ros2_ws/build/py_pubsub/install.log'
+[0.852s] Invoked command in '/home/phuros/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/phuros/ros2_ws/build/py_pubsub/prefix_override:/home/phuros/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/phuros/ros2_ws/build/py_pubsub/build install --record /home/phuros/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
