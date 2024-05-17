@@ -38,7 +38,7 @@ Add your remote repository (replace with your actual repository URL):
 Push the new branch to the remote repository:
 
 ```bash
-  git push -u origin --
+  git push -u origin (branch_name)
 ```
 # 2
 ##
