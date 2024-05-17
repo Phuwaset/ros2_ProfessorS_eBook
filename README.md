@@ -33,7 +33,7 @@ To run tests for the packages we just built, run the following:
   colcon test
 ```
 
-## Source the environment
+## Source the environment overlay
 
 When colcon has completed building successfully, the output will be in the install directory.
 
