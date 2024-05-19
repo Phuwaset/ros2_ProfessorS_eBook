@@ -3,7 +3,7 @@
 To run install python3-colcon-common-extensions, run the following command
 
 ```bash
-  sudo apt install python3-colcon-common-extensions
+sudo apt install python3-colcon-common-extensions
 ```
 
 ## Create a workspace
@@ -11,8 +11,8 @@ To run install python3-colcon-common-extensions, run the following command
 First, create a directory (ros2_ws) to contain our workspace
 
 ```bash
-  mkdir -p ~/ros2_ws/src
-  cd ~/ros2_ws
+mkdir -p ~/ros2_ws/src
+cd ~/ros2_ws
 ```
 ## 
 ## Source an underlay = ros2_ws
@@ -22,7 +22,7 @@ First, create a directory (ros2_ws) to contain our workspace
 colcon build --symlink-install
 
 ```bash
-  colcon build --symlink-install
+colcon build --symlink-install
 ```
 
 ## Run tests
@@ -30,7 +30,7 @@ colcon build --symlink-install
 To run tests for the packages we just built, run the following:
 
 ```bash
-  colcon test
+colcon test
 ```
 
 ## Source the environment overlay
@@ -38,7 +38,7 @@ To run tests for the packages we just built, run the following:
 When colcon has completed building successfully, the output will be in the install directory.
 
 ```bash
-  source install/setup.bash
+source install/setup.bash
 ```
 
 
@@ -47,7 +47,7 @@ When colcon has completed building successfully, the output will be in the insta
 Depending on how you installed ROS 2 (from source or binaries), and which platform you’re on, your exact source command will vary:
 
 ```bash
-  source /opt/ros/humble/setup.bash
+source /opt/ros/humble/setup.bash
 ```
 
 ## Resolve dependencies
@@ -55,7 +55,7 @@ Depending on how you installed ROS 2 (from source or binaries), and which platfo
 From the root of your workspace (ros2_ws), run the following command
 
 ```bash
-  rosdep install -i --from-path src --rosdistro humble -y
+rosdep install -i --from-path src --rosdistro humble -y
 ```
 If you already have all your dependencies, the console will return:
 ```bash
